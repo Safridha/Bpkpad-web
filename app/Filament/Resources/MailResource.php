@@ -63,8 +63,8 @@ class MailResource extends Resource
                 Select::make('completed')
                 ->label('Status')
                 ->options([
-                    false => 'Not Completed',
-                    true => 'Completed',
+                    false => 'Proses',
+                    true => 'Selesai',
                 ])
                 ->default(false),
             ]);
